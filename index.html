@@ -7,9 +7,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap" rel="stylesheet">
     <title>11 Центр</title>
 </head>
 <body>
+
+
+    <!--ШАПКА-->
     <div class="header">
     <div class="container">
         <div class="info-header">
@@ -19,27 +25,55 @@
         </div>
         <div class="block-h-2">
             <div class="menu-text">
-                <div>Главная</div>
-                <div>Об организации</div>
-                <div>Новости</div>
-                <div>Документы</div>
-                <div>Контакты</div>
+                <div><a href="#">Главная</a></div>
+                <div><a href="#">Об организации</a></div>
+                <div><a href="#">Новости</a></div>
+                <div><a href="#">Документы</a></div>
+                <div><a href="#">Контакты</a></div>
             </div>
         </div>
         <div class="block-h-3">
-            <div class="menu-up"><img src="images/menu.png" alt="menu"></div>
+            <script>
+                function openNav() {
+                    document.getElementById("mySidenav").style.width = "352px";
+                  }
+                  
+                  function closeNav() {
+                    document.getElementById("mySidenav").style.width = "0";
+                  }</script>
+            <span class="position-span " style="font-size:30px;cursor:pointer" onclick="openNav()"><img src="../images/menu.png" alt="menu"></span>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="../images/close.svg" alt="close"></a>
+                <a href="pages/this_is_us.html"><h4>Это мы</h4></a>
+                <a href="#"><h4>Об учреждении</h4></a>
+                <a href="#"><h4>Доступная среда</h4></a>
+                <a href="#"><h4>Документы</h4></a>
+                <a href="#"><h4>Социальные услуги</h4></a>
+                <a href="#"><h4>СМИ</h4></a>
+                <a href="#"><h4>Информация для кандитатов в опекуны</h4></a>
+                <a href="#"><h4>Государственные услуги</h4></a>
+                <a href="#"><h4>Антикоррупционная политика</h4></a>
+                <a href="#"><h4>Охрана труда</h4></a>
+                <a href="#"><h4>Социальные партнеры</h4></a>
+                <a href="#"><h4>Вакансии</h4></a>
+                <a href="pages/form_page.html"><h4>Обратная связь</h4></a>
+                <a href="#"><h4>Партнерский материал</h4></a>
+                <a href="#"><h4>Профилактика</h4></a>
+                <a href="#"><h4>Для добровольцев и благтворительных организаций</h4></a> 
+              </div>
         </div>
     </div>
     </div>
     </div>
+
     <div class="header-content">
         <div class="header-content-text">
      <div class="header-text"><h1>Санкт-Петербургское государственное бюджетное учреждение центр для детей-сирот и детей, оставшихся без попечения родителей 
         «Центр содействия семейному воспитанию №11»</h1></div>
-        <div><button class="header_button text-button">Подробнее</div>
+        <div><button class="header_button text-button">Подробнее</button></div>
         </div>
     </div></div>
-
+   <!--Блок QR-->
     <div class="main-qr">
         <div class="container">
             <div class="info-qr">
@@ -60,7 +94,7 @@
                     </div>
                     </div>
 
-                    <!--Блок новости-->
+                    <!--Блок НОВОСТИ-->
      <div class="news">
         <div class="container">
             <div class="news-content">
@@ -90,54 +124,208 @@
         </div>
     </div>
 
-    <div class="info">
-        <div class="container">
-            <h2 class="info-text">Информация</h2>
-        </div>
-                <div class="info-content">
+<!--Блок ИНФОРМАЦИЯ-->
+<div class="info">
+    <div class="container">
+        <div class="info-content-text">
+        <h2 class="info-text">Информация</h2>
 
-                    <div class="info-blocks">
-                        <div class="info-block">
-                            <div><img src="images/info-img1.jpeg" alt="img1-info"></div>
-                            <div class="info-text">
-                                <div class="hint-text">2 мая 2024г.</div>
-                                <div class="heading-text">Прокуратура Санкт-Петербурга разъясняет</div>
-                            </div>
-                        </div>
-                        <div class="info-block">
-                            <div><img src="" alt=""></div>
-                            <div class="info-text">
-                                <div class="hint-text">2 мая 2024г.</div>
-                                <div class="heading-text">Прокуратура Санкт-Петербурга разъясняет</div>
-                            </div>
-                        </div>
-                        <div class="info-block">
-                            <div><img src="" alt=""></div>
-                            <div class="info-text">
-                                <div class="hint-text">2 мая 2024г.</div>
-                                <div class="heading-text">Прокуратура Санкт-Петербурга разъясняет</div>
-                            </div>
-                        </div>
-                        <div class="info-block">
-                            <div><img src="" alt=""></div>
-                            <div class="info-text">
-                                <div class="hint-text">2 мая 2024г.</div>
-                                <div class="heading-text">Прокуратура Санкт-Петербурга разъясняет</div>
-                            </div>
-                        </div>
-                        <div class="info-block">
-                            <div><img src="" alt=""></div>
-                            <div class="info-text">
-                                <div class="hint-text">2 мая 2024г.</div>
-                                <div class="heading-text">Прокуратура Санкт-Петербурга разъясняет</div>
-                            </div>
-                        </div>
-                        <div class="button-news"><button class="button-color text-button-white">Больше новостей</button></div>
+            <div class="info-content">
+
+                <div class="info-blocks">
+                    <div class="info-block">
+                        <div ><img src="images/info-img1.jpeg" alt="img1-info"></div>
+                        <div class="info-text">
+                            <div class="hint-text">2 мая 2024г.</div>
+                            <div class="heading-text">Прокуратура Санкт-Петербурга разъясняет</div>
                         </div>
                     </div>
+                    <div class="info-block">
+                        <div><img src="images/scum.jpeg" alt="scum"></div>
+                        <div class="info-text">
+                            <div class="hint-text">2 мая 2024г.</div>
+                            <div class="heading-text">Прокуратура Санкт-Петербурга разъясняет</div>
+                        </div>
+                    </div>
+                    <div class="info-block">
+                        <div><img src="images/9may.jpeg" alt="9may"></div>
+                        <div class="info-text">
+                            <div class="hint-text">2 мая 2024г.</div>
+                            <div class="heading-text">Прокуратура Санкт-Петербурга разъясняет</div>
+                        </div>
+                    </div>
+                    <div class="info-block">
+                        <div><img src="images/saves.png" alt="saving"></div>
+                        <div class="info-text">
+                            <div class="hint-text">2 мая 2024г.</div>
+                            <div class="heading-text">Прокуратура Санкт-Петербурга разъясняет</div>
+                        </div>
+                    </div>
+                    <div class="info-block">
+                        <div><img src="images/cleans.jpeg" alt="cleans"></div>
+                        <div class="info-text">
+                            <div class="hint-text">2 мая 2024г.</div>
+                            <div class="heading-text">Прокуратура Санкт-Петербурга разъясняет</div>
+                        </div>
+                    </div>
+                    <div class="button-news"><button class="button-color-info text-button-white">Больше статей</button></div>
+                    </div>
+                </div>
             </div>
-
+        </div>
     </div>
+</div>
+    <!--Блок ПОЛЕЗНЫЕ РЕСУРСЫ-->
+            <div class="resources">
+                <div class="container">
+                    <div class="resources-info">
+                        <div><h2>Полезные ресурсы</h2></div>
+                        <div class="r-info golos-text">
+                        <div>Дети ждут родителей</div>
+                        <div>Комитет по социальной политеке СПб</div>
+                        <div>Официальный сайт Администрации Санкт-Петербурга</div>
+                        <div>Уполномоченный по правам ребёнка в Санкт-Петербурге</div>
+                        <div>Министерство труда и социальной защиты РФ</div>
+                        <div>Специальная линия «Нет коррупции»</div>
+                    </div>
+                    <div class="resources-partners">
+                        <div><img src="images/part1.png" alt="part1"></div>
+                        <div><img src="images/part2.png" alt="part2"></div>
+                        <div><img src="images/part3.png" alt="part3"></div>
+                        <div><img src="images/part4.png" alt="part4"></div>
+                        <div><img src="images/part5.png" alt="part5"></div>
+                        <div><img src="images/part6.png" alt="part6"></div>
+                        <div><img src="images/part7.png" alt="part7"></div>
+                        <div><img src="images/part8.png" alt="part8"></div>
+                        <div><img src="images/part9.jpg" alt="part9"></div>
+                        <div><img src="images/part10.png" alt="part9"></div>
+                    </div>
+                </div>
+            </div>
+</div>
+            <!--Школа приемных родителей-->
+            <div class="main-school">
+                <div class="container">
+                    <div class="info-school">
+                    <div><h2>Школа приемных родителей</h2></div>
+                        <div class="blocks-school">
+                        <div class="block-infos-school">
+                                    <div class="block-school-1">
+                                    <div><h4>Добро пожаловать в школу приемных родителей!</h4></div>
+                                </div>
+                                <div class="block-school-2">
+                                    <div><h4>Если вы твёрдо намерены усыновить/удочерить ребёнка, вам необходимо будет пройти обучение в Школе приёмных родителей. Этот пункт стоит обязательным условием для процедуры усыновления. Приглашаем в Школу приемных родителей, которая открыта на базе СПб ГБУ "Центр содействия семейному воспитанию №11" по адресу: Санкт-Петербург, пр. Космонавтов, д.18, к.3, лит.А</h4></div>
+                                </div>
+            
+                            </div>
+                              <img src="images/school.png" alt="">
+                        </div>
+                    </div>
+                            </div>
+                            </div>
 
+
+            <div class="about-center">
+                <div class="container">
+                    <div class="center-info">
+                    <div class="about-center-info">
+                <div><h4>В каждом районе города есть государственный центр социальной помощи семье и детям с отделением сопровождения замещающих семей. В районных отделениях оказывают консультационную помощь по вопросам социального обслуживания и предоставления социальных услуг, оформления или восстановления документов, взаимодействия с органами опеки и попечительства, администрациями районов, отделами социальной защиты населения.</h4></div>
+            </div>
+            <div class="time-lesson">
+                <div class="time-t1"><h4>График занятий</h4></div>
+                <div class="time-t2"><h4>Занятия проводятся 2 раза в неделю:<br>
+                    Будний день в вечернее время<br>
+                    Выходной день в дневное время<br>
+                    Форма занятий: очная</h4></div>
+            </div>
+</div></div></div>
+
+            <!--Блок СМИ-->
+            <div class="smi">
+                <div class="container">
+                    <div><h2>СМИ</h2></div>
+                    <div class="smi-info golos-text">
+                        <div><a href="https://mogagarinskoe.ru/gazeta/2021/gk-1.pdf">Газета жителей муниципального округа Гагаринское «Гагаринский курьер» февраль 2021 года</a></div>
+                        <div><a href="https://vk.com/dedmorozntv?w=wall-130015614_11447">Пресс-конференция Деда Мороза с жителями Санкт-Петербурга от НТВ 2021 год</a></div>
+                        <div><a href="https://www.ntv.ru/peredacha/Puteshestvie_Deda_Moroza/m90760/v2068421/">Путешествие Деда Мороза с НТВ 2021 год</a></div>
+                        <div><a href="http://gu.site.gov.spb.ru/media/69/content/23037/documents/GK-5_final.pdf">Газета жителей муниципального округа Гагаринское «Гагаринский курьер» июнь 2022 года</a></div>
+                    </div>
+                    <div class="pdf">
+                        <div><img src="images/pdf.png" alt="pdf"></div>
+                        <div class="pdf-info">
+                            <div class="golos-text">Гагаринский курьер</div>
+                            <div class="hint-text"><p>PDF (267 Мб)</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!--Местоположение центра-->
+            <div class="place-center">
+                <div class="container">
+                    <div><h2>Местоположение центра</h2></div>
+                    <div class="place">
+                    <div class="map">
+                        <script type="text/javascript" charset="utf-8"  async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A65c559222a891f2d306e7ca9a4d3e397224a7fb30dad380ef6fce02f6967dbbd&amp;width=496&amp;height=223&amp;lang=ru_RU&amp;scroll=true"></script>
+                    </div>
+                    <div class="place-info"> 
+                        <div class="place-info1">
+                        <div class="place-name"><h4>СПБ ГБУ Центр №11</h4></div>
+                        <div class="icon-info"><img src="images/phone-icon.png" alt="phone-icon"><h4>8 (812) 417-21-03 / 417-21-04 / 417-21-06с</h4></div>
+                        <div class="icon-info"><img src="images/mail-icon.png" alt="mail-icon"><h4>ddom31@yandex.ru</h4></div>
+                        <div class="icon-info"><img src="images/place-icon.png" alt="place-icon"><h4>196244, Санкт-Петербург, пр. Космонавтов, д.18, к.3, лит.А</h4></div>
+                    </div>
+                </div>
+            </div>
+        </div></div>
+<!--Парнерский матераиал-->
+        <div class="main-contract">
+            <div class="container">
+                <div class="info-contract">
+                <div><h2>Партнерский материал</h2></div>
+                    <div class="blocks-contract">
+                    <div class="block-infos-contract">
+                                <div class="block-contract-1">
+                                <div class = golos-text><div>В Санкт‑Петербурге созданы все условия для заключения контракта на военную службу в Вооруженных силах Российской Федерации. Во всех районах города открыты и работают Информационные пункты.</h4></div>
+                            </div>
+                            <div class="block-contract-2">
+                                <button class="contract_button text-button">Подробнее</button>
+                            </div>
+                        </div>
+                     
+                    </div>
+                    <div><img src="/images/contract.jpg" alt=""></div>
+                </div>
+                        </div>
+                        </div>
+                        </div>
+           <!--ФУТЕР-->             
+                        <footer class="footer">
+                            <div class="container">
+                                <div class="footer-content">
+                                    <div class="contact-footer">
+                                        <div class="golos-text-footer">Контакты</div>
+                                        <div class="contact-footer-description">
+                                            <div class="golos-text-footer-desc">Адрес: 196244, Санкт-Петербург, пр. Космонавтов, д.18, к.3, лит.А</div>
+                                            <div class="golos-text-footer-desc">Телефон: тел/факс: +7(812)417-21-03; 417-21-04, 417-21-06</div>
+                                            <div class="golos-text-footer-desc">Email: ddom31@yandex.ru</div>
+                                        </div>
+                                    </div>
+                
+                                    <div>
+                                        <div class="logo-footer">
+                                            <div class="golos-text-footer">СПб ГБУ Центр №11</div>
+                                            <div><img src="../images/emblem-footer.png" alt="logo"></div>
+                                        </div>
+                                            <div>
+                                                <div class="shares">
+                                                    <div><img src="../images/share.svg" alt="share"></div>
+                                                    <div><img src="../images/vk.svg" alt="vk"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        </footer>
 </body>
 </html>

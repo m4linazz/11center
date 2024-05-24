@@ -1,0 +1,51 @@
+.golos-text-form {
+    font-family: "Golos Text";
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 20px;
+}
+
+
+/* Страницы обратной связи*/
+.form-bg {
+    width: 468px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    gap: 30px;
+}
+
+.form-text-blocks {
+    background-color:#F5F8FD ;
+    padding-top: 40px;
+}
+
+.input-form {
+    background-color: #F5F8FD;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #CED4E2;
+}
+.form-text-input {
+    height: 103px;
+    max-width: 94.5%;
+}
+.form-text-block  {
+    width: 500px;
+}
+.form-text-block h2 {
+    margin:0px 0px 40px 0px;
+}
+.form-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.form-block-page  {
+    padding-bottom: 20px;
+}
+.description-form-text {
+    padding:20px 0px 40px 0px ;
+}

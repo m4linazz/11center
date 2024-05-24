@@ -10,6 +10,14 @@
 }
 
 /* text */
+.golos-text {
+    font-family: "Golos Text";
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: #B58763;
+    line-height: 20px;
+}
+
 h1     /* H1 24px */
 {
     font-family: "Montserrat", sans-serif;
@@ -62,7 +70,6 @@ h3     /* H3 18px*/
     font-weight: 500;
     line-height: 20px;
     font-style: normal;
-
     color: #161618;
 }
 
@@ -101,11 +108,59 @@ h4 /* main-text основной текст 14px*/
     color: white;
 }
 
+/*ТИТУЛЬНИК ПОД ШАПКОЙ */
+
+.page-title {
+    margin: 0;
+    background-color: #06131B;
+    box-shadow: inset 0em 0.1em .2em rgb(0, 0, 0);
+}
+
+.bg-page-title {
+    padding: 20px 0px 20px 0px;
+}
+
+/* МЕНЮ */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #06131B;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 85px;
+
+
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #bdbdbd;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    margin-top: 20px;
+    margin-left: 270px;
+  }
+
 /* шапка */
 
 .header {
     width: 100%;
-    height: 70px;
+    height: 74px;
     background-color: #06131B;
 }
 
@@ -128,6 +183,11 @@ h4 /* main-text основной текст 14px*/
 .block-h-2 div {
     display: flex;
     padding: 0 12px 0px 12px;
+}
+
+.block-h-2 a {
+    text-decoration: none;
+    color: white;
 }
 
 .block-h-2 {
@@ -212,7 +272,7 @@ h4 /* main-text основной текст 14px*/
 font-weight: 600;
 }
 
-/* блок новости */
+
 /* Новости*/
 .news{
     background-color: #F5F8FD;
@@ -245,7 +305,7 @@ font-weight: 600;
 }
 .button-color {
     background-color: #B58763;
-    border: 0px;
+    border: 0;
     padding: 12px 20px;
     border-radius: 5px;
 }
@@ -255,27 +315,37 @@ font-weight: 600;
 }
 
 .info-text {    
-    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
     padding-bottom:16px;
     color: white;
 }
+.info-content-text  > .info-text {
+    padding-bottom: 34px;
+}
+.info-text .heading-text {
+    padding-top: 10px;
+}
 .info-content {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     height: 404px;
     padding-bottom: 30px;
 }
-
+.info-content-text {
+    padding-top: 40px;
+}
 .info-blocks {
-    background-color: white;
-    border-radius: 10px 0px 0px 10px;
+    width: 1023px;
+    background-color: #F5F8FD;
+    border-radius: 10px;
     padding: 32px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     row-gap: 13px;
     column-gap:32px ;
-    padding-right: 500px;
+
 }
 .info-block {
     display: flex;
@@ -284,4 +354,342 @@ font-weight: 600;
 .info-block img {
     height: 100px;
     width: 100px;
+}
+
+.page-title {
+    background-color: #06131B;
+    box-shadow: inset 0em 0.1em .2em rgb(0, 0, 0);
+}
+.form-text-blocks {
+    background-color:#F5F8FD ;
+}
+.bg-page-title {
+    padding: 20px 0px 20px 0px;
+}
+
+.button-color-info {
+    background-color: #F5F8FD;
+    border: 1px solid #B58763;
+    padding: 12px 20px;
+    border-radius: 5px;
+    color: #161618;
+}
+
+/* Полезные ресурсы */
+
+.resources-info {
+    padding-top: 40px;
+}
+
+.r-info {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 40px 0px 20px 0px;
+}
+
+.resources-partners img {
+    width: 144px;
+}
+
+.resources-partners {
+    display: flex;
+    column-gap: 32px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+}
+
+/* СМИ */
+.smi {
+    background-color: #0E1F2C;
+    width: 100%;
+}
+
+.smi h2 {
+    padding-top: 40px;
+    color: white;
+}
+
+.smi-info a {
+    text-decoration: none;
+    color: #B58763;
+}
+
+.smi-info {
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 40px 0 50px 0;
+}
+
+.hint-text p {
+    font-size: 0.625rem;
+    padding-top: 5px;
+}
+
+.pdf {
+    display: flex;
+    column-gap: 24px;
+    padding-bottom: 40px;
+}
+
+/* школа приемных родителей */
+.main-school{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 22px;
+}
+
+.info-school div h2 {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.blocks-school{
+    display: flex;
+    flex-direction: row;
+    background-color: #46AE7C;
+    padding: 10px 0px 10px 0px;
+}
+
+.block-school-1{
+    padding-top: 69px;
+    padding-left: 20px;
+}
+
+.block-school-2{
+    width: 476px;
+    height: 151px;
+    padding-left: 20px;
+    padding-right: 32px;
+}
+
+.block-school-1 div h4{
+    padding-bottom: 35px;
+    font-weight: 600;
+    color: white;
+}
+
+.block-school-2 div h4{
+    font-weight: 400;
+    color: white;
+}
+
+.blocks-school img {
+    width: 496px;
+    height: 352px;
+}
+
+.about-center {
+    padding-bottom: 68px;
+}
+
+.center-info {
+    display: flex;
+    column-gap: 32px;
+}
+
+.about-center-info {
+    background-color: #F5F8FD;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.about-center div h4{
+    font-weight: 400;
+    width: 456px;
+}
+
+.time-lesson {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    width: 320px;
+}
+
+.time-t1 h4 {
+    padding-top: 10px;
+    color: #B58763;
+    font-weight: 600;
+}
+
+.time-t2 h4 {
+    font-weight: 600;
+}
+
+/* Местоположение центра*/
+.place-center{
+    background-color: #F5F8FD;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.place {
+    padding-top: 40px;
+    display: flex;
+    gap:32px;
+}
+
+.map {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.place-info {
+    background-color:white;
+    width: 496px;
+    height: 223px;
+    border: 1px solid #D6C3BC;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.place-info1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.place-name h4 {
+    color: #0E1F2C;
+    font-weight: 600;
+}
+
+.icon-info {
+    display: flex;
+    gap:12px;
+}
+
+.icon-info h4 {
+    display: flex;
+    align-items: center;
+    color: #0E1F2C;
+    font-weight: 400;
+}
+
+/*Партнерский материал*/
+.main-contract{
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blocks-contract{
+    display: flex;
+    flex-direction: row;
+    width: 1,025.38px;
+    height: 232px;
+    padding: 40px 0px 0px 0px;
+}
+
+.block-contract-1{
+    width: 475px;
+    height: 80px;
+    padding-top: 43px;
+    padding-left: 21px;
+    padding-right: 32px;
+}
+
+.block-contract-1 div {
+    color:#F5F8FD;
+}
+
+.blocks-contract img {
+    width: 497.38px;
+    height: 212px;
+}
+
+.block-infos-contract{
+    width: 528px;
+    height: 212px;
+    background: #3B81BB;
+}
+
+.contract_button {
+    background-color: #3B81BB;
+    color: #F5F8FD;
+    padding: 12px 22px 12px 22px;
+    border-radius: 5px;
+    display: flex;
+    border: 1px solid #F5F8FD;
+ }
+
+ .block-contract-2 {
+    padding-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+ }
+
+ /* футер*/
+footer {
+    background-color: #0E1F2C;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+.golos-text-footer {
+    font-family: "Golos Text";
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 21px;
+    color: white;
+}
+.contact-footer-description {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-top: 20px;
+}
+.contact-footer {
+    padding: 25px 0px 25px 0px;
+}
+.golos-text-footer {
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 18px;
+    color: white;
+}
+.golos-text-footer-desc {
+    font-family: "Golos Text";
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 18px;
+    color: white;
+}
+.logo-footer {
+    padding: 14.5px 0px 14.5px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    width: 144px;
+}
+.logo-footer img {
+    width: 88px;
+    height: 88px;
+}
+.shares {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+
+}
+.shares div  {
+    display: flex;
+    width: 22px;
+    height: 22px;
+}
+.shares div img  {
+    width: 22px;
+    height: 22px;
 }

@@ -1,0 +1,121 @@
+/* РАЗДЕЛЫ */
+
+.chapter {
+  border: 1px solid #0E1F2C;
+  border-radius: 5px;
+  background-color: white;
+  color: #0E1F2C;
+  padding: 12px 22px 12px 22px;
+}
+
+.chapters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding-top: 20px;
+}
+
+.sections {
+    padding-top: 20px;
+}
+
+/* СПИСКИ*/
+.our-groups {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.our-dops {
+    padding-bottom: 40px;
+}
+
+.dops {
+    width: 496px;
+}
+
+.group11 h4{
+    font-weight: 400;
+    color: #333333;
+}
+
+.group11 div h4{
+    font-weight: 400;
+    padding-top: 40px;
+    color: #333333;
+}
+
+.group31 h4{
+    font-weight: 400;
+    color: #333333;
+}
+
+.group31 div h4{
+    font-weight: 400;
+    padding-top: 40px;
+    color: #333333;
+}
+
+.group31 {
+    width: 496px;
+}
+
+.group12 {
+    padding-left: 120px;
+    width: 146px;
+    height: 292px;
+}
+
+.group12 h4{
+    font-weight: 400;
+    color: #333333;
+}
+
+.group12 div h4{
+    font-weight: 400;
+    padding-top: 40px;
+    color: #333333;
+}
+
+.list_school li{
+    padding-top: 12px;
+}
+
+.list_school {
+    padding-top: 8px;
+    padding-left: 50px;
+}
+
+.groups1 {
+    display: flex;
+}
+
+.groups3 {
+    display: flex;
+    gap:32px;
+}
+
+
+/* чем мы занимаемся */
+
+.what_we_do {
+    padding-bottom: 44px;
+    background-color: #F3F3F3;
+}
+
+.what_we_do h2 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+/* слайдер */
+swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+swiper-container {
+    width: 100%;
+    margin: 20px auto;
+} 
