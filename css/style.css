@@ -18,6 +18,15 @@
     line-height: 20px;
 }
 
+.golos-hint-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.625rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+    color: #A89B9D;
+}
+
 h1     /* H1 24px */
 {
     font-family: "Montserrat", sans-serif;
@@ -125,7 +134,7 @@ h4 /* main-text основной текст 14px*/
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 3;
     top: 0;
     right: 0;
     background-color: #06131B;
@@ -308,6 +317,11 @@ font-weight: 600;
     border: 0;
     padding: 12px 20px;
     border-radius: 5px;
+}
+
+.button-color a {
+    text-decoration: none;
+    color: white;
 }
 /*Информация */
 .info {
@@ -565,6 +579,7 @@ font-weight: 600;
 .icon-info {
     display: flex;
     gap:12px;
+    align-items: center;
 }
 
 .icon-info h4 {
@@ -572,6 +587,10 @@ font-weight: 600;
     align-items: center;
     color: #0E1F2C;
     font-weight: 400;
+}
+
+.icon-info img {
+    height:fit-content;
 }
 
 /*Партнерский материал*/
@@ -693,3 +712,4 @@ footer {
     width: 22px;
     height: 22px;
 }
+

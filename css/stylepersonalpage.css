@@ -1,0 +1,79 @@
+.administration {
+    background-color: #F5F8FD;
+}
+.admin-content {
+    padding-top: 40px;
+    padding-bottom: 12px;
+}
+.admin-content h2 {
+    padding-bottom: 32px;
+}
+.admin-block {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.administration-cart-schedule {
+    display: flex;
+    gap: 32px;
+    padding-bottom: 20px;
+}
+.administration-graphs .administration-schedule {
+    color: black;
+}
+.cart-personality {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 11px;
+}
+.admin-block .golos-text {
+    padding-bottom: 5px;
+}
+.cart-content-block {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    border-bottom: 2px solid #A89B9D;
+    width: 495px;
+}
+.cart-content-block .golos-text-footer-desc {
+    color: black;
+}
+.cart-personal {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.educator-content .cart-personality  {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 923px;
+}
+.teachers {
+    background-color:#0E1F2C ;
+}
+.teachers-content .cart-personality .cart-content-block .admin-block .color-text-teachers {
+    color: white;
+}
+.teachers-content {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.teachers-content h2 {
+    color: white;
+}
+.teachers-content h2 {
+    padding-bottom: 22px;
+}
+.educators {
+    padding-top: 20px;
+}
+.educator-content .cart-personality {
+    padding-top: 22px;
+    padding-bottom: 35px;
+}
+.educatots-carts {
+    padding-top: 22px;
+
+}

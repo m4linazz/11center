@@ -1,0 +1,130 @@
+/* слайдер */
+swiper-slide img {
+    display: block;
+    width: 298px;
+    height: 218px;
+    object-fit:cover;
+    border-radius: 10px;
+  }
+
+swiper-container {
+    width: 100%;
+    margin: 40px auto;
+} 
+
+.place-and-admin {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.place-info {
+    background-color:#F5F8FD;
+    width: 496px;
+    height: 223px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.place-info-2 {
+    background-color: rgb(255, 255, 255);
+    width: 496px;
+    height: 202px;
+    border-radius: 10px;
+    border: 1px solid #D6C3BC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.place-info1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+.place-name h4 {
+    color: #0E1F2C;
+    font-weight: 600;
+}
+
+.icon-info {
+    display: flex;
+    gap:12px;
+    align-items: center;
+}
+
+.icon-info h4 {
+    display: flex;
+    align-items: center;
+    color: #0E1F2C;
+    font-weight: 400;
+}
+
+.icon-info img {
+    height:fit-content;
+}
+
+.place-info {
+    display: flex;
+}
+
+.place-admin {
+    display: flex;
+    gap:32px;
+}
+
+.place-name2 {
+    padding-bottom: 7px;
+}
+
+.cart-content-block {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    width: 495px;
+}
+
+.cart-info {
+    display: flex;
+    align-items: center;
+}
+.cart-content-block .golos-text-footer-desc {
+    color: #0E1F2C;
+}
+.cart-personal {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.admin-block {
+    padding-bottom: 5px;
+}
+
+.golos-text p {
+    padding-bottom: 5px;
+}
+
+.cart-content-block img {
+    display: flex;
+    justify-content: start;
+}
+
+.consultation_info h2 {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.consultation {
+    background-color: #F5F8FD;
+}
+
+.icon-info h4 p {
+    color: #B58763;
+}
