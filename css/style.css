@@ -293,6 +293,8 @@ font-weight: 600;
 .news-blocks {
     padding: 20px 0px 20px 0px;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 20px;
 }
 .news-block {
@@ -300,7 +302,7 @@ font-weight: 600;
     justify-content: flex-start;
     flex-direction: column;
     gap: 12px;
-    width: 387px;
+    width: 288px;
     padding: 20px;
     background-color: white;
     border-radius: 10px;

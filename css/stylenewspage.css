@@ -6,6 +6,7 @@
 }
 .next-page-blocks {
     display: flex;
+    flex-wrap: wrap;
     gap: 12px;
     padding-bottom: 40px;
 }
