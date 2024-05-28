@@ -119,6 +119,7 @@ swiper-container {
 .consultation_info h2 {
     padding-top: 40px;
     padding-bottom: 30px;
+    color: #161618;
 }
 
 .consultation {
@@ -126,5 +127,153 @@ swiper-container {
 }
 
 .icon-info h4 p {
+    color: #B58763;
+}
+
+.uslugi {
+    background-color: #F5F8FD;
+    padding-bottom: 60px;
+}
+
+.uslugi2 {
+    background-color: #F5F8FD;
+}
+
+.uslugi h2 {
+    color:#161618;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.uslugi h4 {
+    font-weight: 400;
+    color: #0E1F2C;
+}
+
+.uslugi2 h2 {
+    color:#161618;
+
+}
+
+.uslugi2 h4 {
+    font-weight: 400;
+    color: #0E1F2C;
+}
+
+.services {
+    width: 496px;
+    padding-bottom: 20px;
+}
+
+.list-uslugi {
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 20px;
+}
+
+.access-info h2 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.access-info img {
+    width: 496px;
+    height: 310px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.doc1 {
+    background-color: #F5F8FD;
+}
+
+.doc1 h2 {
+    padding-top: 40px;
+    padding-bottom: 38.5px;
+}
+
+.trolleybus {
+    background-color: #0E1F2C;
+}
+
+.trolleybus h2 {
+    color:#F5F8FD;
+    padding-top: 40px;
+}
+
+.trolleybus h4 {
+    color:#F5F8FD;
+    padding-top: 20px;
+    width: 496px;
+}
+
+.trolleybus-info h2 p {
+    color: #B58763;
+}
+
+.find-blocks h4 {
+    width: 456px;
+    height: 192px;
+    background-color: #F5F8FD;
+    border-radius: 10px;
+    color: #161618;
+    padding: 20px;
+    font-weight: 400;
+}
+
+.find-blocks img {
+    width: 496px;
+    height: 232px;
+    border-radius: 10px;
+}
+
+.find-blocks {
+    display: flex;
+    gap: 32px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.bus-info h2 {
+    padding-top: 40px;
+}
+
+.walk-blocks {
+    display: flex;
+    gap: 32px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    
+}
+
+.walk {
+    background-color: #0E1F2C;
+}
+
+.footer {
+    box-shadow: inset 0em 0.1em .2em rgb(0, 0, 0);
+}
+
+.walk-text{
+    width: 465px;
+    height: 138px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.walk-text h4 {
+    font-weight: 400;
+    color: #13135A;
+}
+
+.photo-walk img {
+    width: 495px;
+    height: 178px;
+    border-radius: 10px;
+}
+
+.walk-info h2 {
+    padding-top: 40px;
     color: #B58763;
 }

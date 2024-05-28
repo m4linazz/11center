@@ -1,0 +1,182 @@
+.contract_button-1 {
+    background-color: #D3FFFE;
+    color: #0E1F2C;
+    padding: 12px 22px 12px 22px;
+    border-radius: 5px;
+    display: flex;
+    border: 1px solid #0E1F2C;
+ }
+
+ .block-contract-3 {
+    padding-top: 40px;
+    display: flex;
+    justify-content: flex-end;
+ }
+
+.esia-1 h4 {
+    font-weight: 400;
+    color: #0E1F2C;
+}
+
+.esia-text p {
+    padding-bottom: 20px;
+}
+
+.esia-1 {
+    background-color: #D3FFFE;
+    padding: 92px 32px 92px 32px;
+}
+
+.esia-info {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.esia-2 img {
+    width: 320px;
+    height: 454px;
+}
+
+.esia-2 {
+    width: 320px;
+    height: 451px;
+}
+
+.text-links h4{
+    width: 551px;
+    font-weight: 400;
+    color: #0E1F2C;
+}
+
+.text-links {
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    padding-bottom: 20px;
+}
+
+.text-links a{
+    text-decoration: none;
+    color: #B58763;
+}
+
+.taxes {
+    background-color: #F5F8FD;
+}
+
+.taxes h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.taxes-info {
+    padding-bottom: 52.5px;
+}
+
+.taxes-info1 a {
+    text-decoration: none;
+    color: #B58763;
+}
+
+.taxes-info1 {
+    width: 496px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-button {
+    background-color: #9FCDF2;
+    color: #0E1F2C;
+    padding: 12px 22px 12px 22px;
+    border-radius: 5px;
+    display: flex;
+    border: 1px solid #0E1F2C;
+ }
+
+ .block-card {
+    padding-top: 40px;
+    display: flex;
+    justify-content: flex-end;
+ }
+
+.card-1 h4 {
+    font-weight: 400;
+    color: #0E1F2C;
+}
+
+.card-1 {
+    background-color: #9FCDF2;
+    padding: 35px 20px 35px 20px;
+}
+
+.card-spb-info {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.card-2 img {
+    width: 496px;
+    height: 331px;
+}
+
+.card-2 {
+    width: 496px;
+    height: 331px;
+}
+
+.gos-inf-block-group p {
+    margin-top: 20px;
+}
+
+.gos-inf-block-group h4{
+    font-weight: 400;
+    color: #0E1F2C;
+}
+
+.gos-inf-block-group {
+    width: 496px;
+}
+
+.gos-inf-block {
+    display: flex;
+    gap:32px;
+    padding-bottom: 20px;
+}
+
+.detailed-inf {
+    background-color: #F5F8FD;
+}
+
+.detailed-information {
+    background-color:white;
+    width: 429px;
+    padding: 20px 32px 20px 32px;
+    border: 1px solid #D6C3BC;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.det-info1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.det-name h4 {
+    color: #0E1F2C;
+    font-weight: 400;
+    width: 432px;
+}
+
+.icon-info a {
+    text-decoration: none;
+    color: #0E1F2C;
+}
+
+.det-block {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
