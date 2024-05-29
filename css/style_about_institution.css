@@ -1,0 +1,141 @@
+
+.cart-content-block {
+    display: flex;
+    flex-direction: row;
+    Width: 495px;
+    Height: 117px;
+    gap: 25px;
+    height: 117px;
+    padding-top: 75px;
+    padding-bottom: 74px;
+}
+.cart-content-block .golos-text-footer-desc {
+    color: black;
+}
+
+.cart-content-block .golos-text-footer-desc {
+    color: black;
+}
+
+.cart-personality {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 11px;
+}
+
+.admin-block {
+    width: 423px;
+    height: 97px;
+}
+
+
+
+.konsultation {
+    background-color: #F5F8FD;
+    padding: 20px 32px 20px 32px;
+}
+
+.konsultation-content {
+    padding-bottom: 12px;
+}
+
+.konsultation-content h2 {
+    padding-bottom: 32px;
+}
+
+.konsultation-content h4 {
+    width: 510px;
+}
+
+.konsultation-block-2{
+    display: flex;
+    flex-direction: row;
+    padding-top: 11px;
+    gap: 32px;
+}
+
+.icon-info-pochta {
+    display: flex;
+    gap:12px;
+    align-items: center;
+}
+
+.icon-info-pochta h4 {
+    display: flex;
+    align-items: center;
+    color: #B58763;
+    font-weight: 400;
+}
+
+.uslugi {
+    background-color: #fff;
+}
+
+.uslugi-content {
+    padding-top: 40px;
+    padding-bottom: 12px;
+}
+
+.uslugi-content h2 {
+    padding-bottom: 32px;
+}
+
+.uslugi-content h4 {
+    width: 510px;
+    padding-bottom: 20px;
+}
+
+.object a {
+    text-decoration: none;
+    color: #B58763;
+}
+
+.object span a {
+    text-decoration:underline;
+    color: #0E1F2C;
+}
+
+.kartochka {
+    background-color: #F5F8FD;
+    height: 204px;
+    padding-bottom: 20px;
+}
+.kartochka-content {
+    padding-top: 20px;
+    padding-bottom: 12px;
+    width: 496px;
+}
+
+.kartochka-content h2 {
+    padding-bottom: 32px;
+}
+
+
+.sections{
+height: 152px;
+padding-bottom: 20px;
+}
+.chapter {
+    border: 1px solid #0E1F2C;
+    border-radius: 5px;
+    background-color: white;
+    color: #0E1F2C;
+    padding: 12px 22px 12px 22px;
+  }
+  
+  .chapters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 32px;
+      padding-top: 20px;
+  }
+
+  .sections-info div h2 {
+    padding-top: 40px;
+}
+
+.chapter a {
+    text-decoration: none;
+    color: #0E1F2C;
+}

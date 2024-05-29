@@ -1,0 +1,103 @@
+.help-text {
+    padding-top: 22px;
+}
+
+.help-text h4 {
+    font-weight: 400;
+    width: 495px;
+}
+
+.bold-help-text {
+    padding-top: 32px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.phone-blocks {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-bottom: 40px;
+}
+
+.phones-help {
+    background-color: #F5F8FD;
+}
+
+.phones-help h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.phone-information {
+    background-color:white;
+    width: 278px;
+    padding: 20px;
+    border: 1px solid #D6C3BC;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.phone-information1 {
+    background-color:white;
+    width: 630px;
+    height: 228px;
+    padding: 20px;
+    border: 1px solid #D6C3BC;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.phone-info1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.phone-name h4 {
+    color: #0E1F2C;
+    font-weight: 400;
+}
+
+.phone-group1 {
+    display: flex;
+    gap: 32px;
+}
+
+.phone-group2 {
+    display: flex;
+    gap: 32px;
+}
+
+.phone-group2-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.group-phone-text p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.group-phone-text h4 {
+    font-weight: 400;
+}
+
+.group-phone-text b {
+    color: #161618;
+}
+
+.group-phone-text {
+    width: 496px;
+}
+
+.main-text-phones {
+    display: flex;
+    gap:32px;
+    padding-top: 32px;
+    padding-bottom: 45px;
+}

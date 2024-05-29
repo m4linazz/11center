@@ -1,0 +1,364 @@
+.files-content-blocks {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    column-gap: 32px;
+}
+.files-content-blocks {
+    padding: 20px 0px;
+
+}
+.board-trustee-content {
+    padding-top: 60px;
+}
+.pixel-gap {
+
+    margin-bottom: 4px;
+    height: 1px;
+    width: 495px;
+    background-color:#A89B9D;
+}
+.files {
+    display: flex;
+    padding-bottom: 5px;
+    padding-top: 2px;
+    gap: 18px;
+}
+.work-nko {
+    background-color:#F5F8FD ;
+}
+.nko-content-blocks {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 40px;
+
+}
+.title-nko {
+    background-color: white;
+    display: flex;
+    gap: 32px;
+
+
+}
+.button-moo {
+    border: 1px solid white;
+    padding: 12px 22px;
+    border-radius: 5px;
+    background-color: #000099;
+} 
+.title-nko-text .button-news {
+    padding-top: 20px;
+} 
+.title-nko-text {
+    padding: 20px 32px;
+}
+.title-nko-text h3 {
+    padding-top: 20px;
+    padding-bottom: 32px;
+}
+.nko-img img{
+    width: 320px;
+    height: 225px;
+}
+.button-color-info {
+    background-color: white;
+    border-color: #0E1F2C;
+}
+.activity-project {
+    padding-top: 20px;
+    display: flex;
+    gap: 32px;
+}
+.activity {
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #EF7F1B;
+    width: 65.63%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.nko-blocks2 {
+    display: flex;
+    gap: 32px;
+    padding-bottom: 20px;
+}
+.title-nko-text2 {
+    display: flex;
+    flex-direction: column;
+    
+}
+.button-color-wharf {
+    border: 1px solid #224394 ;
+    padding: 12px 20px;
+    border-radius: 5px;
+    background-color: white;
+    color: #224394;
+}
+.wharf-bg-color {
+    display: flex;
+    flex-direction: column;
+    padding: 29px 32px;
+    align-items: center;
+    width: 65.63%;
+    gap: 40px;
+    background-color: white;
+}
+.activity2-wharf {
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #224394;
+    width:34.37% ;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.title-nko-text2-wharf div{
+    color: #224394;
+}
+.title-nko-text2-wharf h3 {
+     padding-bottom: 32px;
+}
+.title-nko-text2 h3 {
+    padding-bottom: 32px;
+}
+.title-nko2 {
+    background-color: #EDEAE6;
+    display: flex;
+    flex-direction: column;
+    padding: 29px 32px;
+    align-items: center;
+    width: 65.63%;
+    gap: 40px;
+}
+.nko-img2{
+    display: flex;
+    height: 40%;
+    align-items: end;
+
+}
+.nko-img2 img {
+    width: 100%;
+    height: 70%;
+    
+}
+.mint-button {
+    background-color: #EDEAE6;
+
+}
+.button-mint {
+    display: flex;
+    justify-content: end;
+}
+.activity2 {
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #117C32;
+    width:34.37% ;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.activity div h3{
+    padding-bottom: 10px;
+}
+.project {
+    padding: 20px;
+    background-color: #EF7F1B;
+    width:34.37% ;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.project div {
+    color: white;
+    width: 280px;
+}
+.project div h4 {
+    font-weight: 400;
+}
+.nko-blocks {
+    padding: 20px 0px;
+}
+.project div h3 a {
+    text-decoration: none;
+    color: white;
+}
+div a {
+    text-decoration: none;
+    color: white;
+}
+.moo {
+    background-color: #000099;
+}
+.moo div {
+    color: white;
+}
+.moo-border {
+    border-color: #000099;
+}
+.projects-creators {
+    padding-top: 20px;
+}
+.creators-text h3 a {
+    color: #0E1F2C;
+    font-size: 1.1rem;
+
+}
+.creators-text-title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    font-style: normal;
+    color: #565352;
+    padding-bottom: 16px;
+}
+.projects-creators-blocks {
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 32px;
+}
+.projects-creators-block {
+    display: flex;
+    flex-direction: column;
+    width: 453px;
+    height: 78px;
+    background-color: white;
+    border: 1px solid #F4B933;
+    padding: 20px;
+}
+.creators-text-title a {
+    color: #0E1F2C;
+}
+.games-future {
+    background-color: #DCF2FF;
+}
+.games-future .nko-img img {
+    width: 360px;
+    height: 242px;
+}
+.games-future-img {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 53px 0px;
+}
+.games-future div a {
+    color: #1D2C74;
+}
+.button-games-future {
+    padding-top:84px ;
+    display: flex;
+    justify-content: flex-end;
+}
+.button-games {
+    padding: 12px 22px;
+    border-radius: 5px;
+    background-color: #DCF2FF;
+    border: 1px solid #1D2C74;
+    color: #1D2C74;
+}
+.games-future {
+    padding: 0px 32px 0px 40px;
+}
+.title-games-future {
+    padding: 80px 0px 32px 0px;
+}
+.text-color-games-future {
+    color: #1D2C74;
+}
+.activity-games {
+    width: 35%;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #293386;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.project-games {
+    width: 65%;
+    padding: 20px;
+    background-color: #293386;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.project-games div h3 {
+    color: white;
+
+}
+.project-games div h4 {
+    color: white;
+    font-weight: 400;
+}
+.nko-img-church img {
+    width: 70% ;
+    height: 100%;
+}
+.nko-img-church {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 60px 40px 50px;
+    width: 320px;
+    height: 225px;
+}
+.churh-text h3 a {
+    color: #2B2A28;
+}
+.church-project-blocks {
+    display: flex;
+    gap:32px ;
+}
+.church-block {
+    width: 33%;
+    height: 376px;
+    background-color: #00AD66;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.church-activity {
+    width: 33.44%;
+    height: 376px;
+    background-color: white;
+    border: 1px solid #00AD66;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.church-block div h3 {
+    color: white;
+}
+.church-block div h4 {
+    color: white;
+    font-weight: 400;
+}
+.useful-docs {
+    background-color: #0E1F2C;
+}
+.useful-docs-content h2 {
+    color: white;
+    padding-top: 60px;
+}
+.useful-docs-blocks {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 260px;
+    padding: 20px 0px;
+    column-gap: 32px;
+}
+.footer {
+    box-shadow: inset 0em 0.2em .2em rgba(0, 0, 0, 0.801);
+}

@@ -1,0 +1,143 @@
+.chapter {
+    border: 1px solid #0E1F2C;
+    border-radius: 5px;
+    background-color: white;
+    color: #0E1F2C;
+    padding: 12px 22px 12px 22px;
+  }
+
+  .chapter a {
+    text-decoration: none;
+    color: #0E1F2C;
+  }
+  
+  .chapters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .sections {
+    padding-top: 20px;
+  }
+
+.anti-terror {
+    background-color:#F5F8FD;
+    padding-top: 20px;
+}
+
+
+.anti-terror-block h2 {
+    padding-top: 40px;
+}
+
+.link-info a {
+    text-decoration: none;
+    color: #B58763;
+}
+
+.link-info {
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+.resources-links a{
+    text-decoration: none;
+    color: #B58763;
+}
+
+.resources-links h4 {
+    font-weight: 400;
+}
+
+.resources-links {
+    width: 492px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 88px;
+}
+
+.anti-terror-block1 {
+    width: 591px;
+}
+
+.anti-terror-block2 img {
+    width: 432px;
+    padding-top: 60px;
+}
+
+.anti-terror-block {
+    display: flex;
+}
+
+.sections-info h2 {
+    padding-top: 20px;
+}
+
+.safety-net h2 {
+    padding-top: 32px;
+    padding-bottom: 27px;
+}
+
+.safety-net h4 {
+    font-weight: 400;
+}
+
+.safety-net a {
+    text-decoration: none;
+    color: #B58763;
+}
+
+.safety-net img {
+    padding-right: 5px;
+}
+
+.safety-net {
+    width: 966px;
+    padding-bottom: 60px;
+}
+
+.safe-school h2 {
+    padding-bottom: 40px;
+}
+
+.pdd {
+    background-color:#F5F8FD;
+}
+
+.pdd-info {
+    padding-top: 20px;
+}
+
+.pdd-info h2 {
+    padding-bottom: 74px;
+}
+
+.pdd-info a {
+    text-decoration: none;
+    color: #B58763;
+}
+
+.doc1 {
+    display: flex;
+    column-gap: 24px;
+    border-bottom: 1px solid #A89B9D;
+    border-top: 1px solid #A89B9D;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    align-items: center;
+}
+
+.main-files {
+    width: 495px;
+    padding-top: 45px;
+    padding-bottom: 60px;
+}
