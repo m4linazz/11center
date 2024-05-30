@@ -1,0 +1,96 @@
+.history-info-block {
+    background-color: #140E03;
+    display: flex;
+
+
+}
+.history-info-block div h4 {
+    color: white;
+    font-weight: 400;
+}
+.history-info-block .history-info-block-content {
+    width: 50%;
+    padding: 20px;
+}
+.history-info-img {
+    width: 496px;
+    height: 348px;
+}
+.wrapper {
+    background-image: url("../images/11center-logo.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.history-info-content {
+    padding-bottom: 40px;
+}
+.history-info-content h2 {
+    padding:50px 0px 20px 0px;
+}
+.history-blocks {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 784px;
+    gap: 32px;
+    padding-bottom: 50px;
+
+}
+.history-block {
+    width: 456px;
+    background-color: #F5F8FD;
+    border-radius: 10px;
+    padding: 20px;
+}
+.history-block .golos-text {
+    color: #0E1F2C;
+}
+.rules-home {
+    background-color: #0E1F2C;
+}
+.rules-home-content {
+    padding-top: 50px;
+}
+.rules-home-content h2 {
+    color: white;
+}
+.rules-home-blocks {
+    display: flex;
+    gap: 32px;
+    padding:20px 0px 30px 0px;
+}
+.rules-home-block {
+    background-color: #F5F8FD;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 30%;
+    text-align: center;
+}
+.tradition-home {
+    background-color: #F5F8FD;
+}
+.tradition-home-content {
+    padding: 50px 0px 30px 0px;
+}
+.tradition-home-content h2 {
+    padding-bottom: 20px;
+}
+.tradition-home-blocks {
+    display: flex;
+    gap: 32px;
+}
+.tradition-home-block {
+    background-color: white;
+    border: 1px solid #A89B9D;
+    display: flex;
+    border-radius: 10px;
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    width: 456px;
+}

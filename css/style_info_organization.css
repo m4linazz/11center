@@ -1,0 +1,122 @@
+.main-info-org {
+    background-color: #F5F8FD;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.txt-org {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-top: 20px;
+}
+
+.txt-org h4 {
+    color: #333333;
+}
+
+.org-info {
+    background-color:white;
+    width: 432px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 32px 20px 32px;
+}
+
+.org-info1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.org-name h4 {
+    color: #10202D;
+    font-weight: 600;
+}
+
+.org-info1 a{
+    text-decoration: none;
+    color: #10202D;
+}
+
+.org-info-blocks {
+    display: flex;
+    gap: 32px;
+    padding-top: 12px;
+}
+
+.standarts {
+    background-color: #0E1F2C;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.standarts h2 {
+    color: #F5F8FD;
+    padding-bottom: 20px;
+}
+
+.standart-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 496px;
+}
+
+.standart-txt a{
+    text-decoration: none;
+    color: #B58763;
+}
+
+.standart-txt h4 {
+    color: #F5F8FD;
+    font-weight: 400;
+}
+
+.structure-org {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.structure-org h2  {
+    padding-bottom: 20px;
+}
+
+.guide h2 {
+    padding-bottom: 20px;
+}
+
+.guide {
+    padding-bottom: 40px;
+}
+
+.pdf {
+    padding: 24px 0 0 0;
+    display: flex;    
+    align-items: center;
+}
+
+.blocks-text {
+    padding-bottom: 25px;
+    padding-top: 40px;
+}
+
+.org-block-txt {
+    width: 496px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.org-block-txt h4 {
+    font-weight: 400;
+    color: #333333;
+}
+
+.org-blocks-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}

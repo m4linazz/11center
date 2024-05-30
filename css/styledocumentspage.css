@@ -1,0 +1,178 @@
+.chapter {
+    border: 1px solid #0E1F2C;
+    border-radius: 5px;
+    background-color: white;
+    color: #0E1F2C;
+    padding: 12px 22px 12px 22px;
+  }
+  
+  .chapters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 32px;
+      padding-top: 20px;
+      padding-bottom: 16px;
+  }
+  .sections-info {
+    padding-top: 40px;
+  }
+  .federal-laws {
+    background-color:#F5F8FD ;
+  }
+  div a {
+    text-decoration:none ;
+    color: #B58763;
+    font-weight: 400px;
+  }
+  .federal-laws-content {
+    padding: 20px 0px 28px 0px;
+  }
+  .federal-laws-blocks {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+  }
+  .federal-laws-block {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .title-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 20px;
+  }
+  .legal-acts-blocks {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 25px 0px 20px 0px;
+    gap: 20px;
+    height: 340px;
+  }
+  .legal-acts-block {
+    display: flex;
+    gap: 11px;
+    width: 510px;
+  }
+  .legal-acts-block div img{ 
+    padding-top: 5px;
+  }
+  .region-laws-blocks   {
+    padding-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .region-laws-content  {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .region-laws-content > div > h4 {
+    padding-top: 32px;
+  }
+.local-laws {
+    background-color: #F5F8FD;
+}
+.local-laws-content {
+    padding-top:16px;
+}
+.local-laws-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px 0px 32px 0px;
+    gap: 20px;
+}
+  .local-laws-block {
+    width: 320px;
+    height: 442px;
+    border: 1px solid #A8AFBF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .local-laws-block img {
+
+    width: 99%;
+    height: 98%;
+  }
+  .local-laws-continue-blocks {
+    padding-bottom: 55px;
+    height: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+}
+.local-laws-continue {
+    padding-top: 14px;
+    background-color: #F5F8FD;
+}
+.licenses {
+    background-color: #F5F8FD;
+}
+.licenes-blocks {
+    display: flex;
+    padding-bottom:40px ;
+    gap: 34px;
+}
+.licenses-files {
+    padding-top: 10px;
+}
+.licenses-text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.licenses-files-block {
+    display: flex;
+    gap: 24px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+.pixel-gap {
+    height: 1px;
+    width: 495px;
+    background-color:#A89B9D;
+}
+.licenses-files-text {
+color:#B58763 ;
+}
+.licenses-text-weight h4 {
+    font-weight: 600;
+}
+.state-activities {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 50%;
+}
+.state-activities-block {
+    display: flex;
+    gap: 8px;
+}
+.state-activities-block div img {
+    padding-top: 6px;
+}
+
+.fin-eco-blocks {
+    display: flex;
+    padding-top:20px ;
+    gap: 32px;
+}
+.fin-eco-activities {
+    padding: 30px 0px 60px 0px;
+}
+.plans-report {
+    display: flex;
+    gap: 32px;
+}
+.PFHD {
+    padding-top: 70px;
+}
