@@ -1,0 +1,109 @@
+.chapter {
+    border: 1px solid #0E1F2C;
+    border-radius: 5px;
+    background-color: white;
+    color: #0E1F2C;
+    padding: 12px 22px 12px 22px;
+  }
+  
+  .chapters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 32px;
+      padding-top: 20px;
+  }
+  
+  .chapter a{
+      text-decoration: none;
+      color: #0E1F2C;
+  }
+  
+  .sections {
+      padding-top: 40px;
+  }
+
+  .methods {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .methods-list {
+    padding-top: 10px;
+    padding-left: 32px;
+  }
+
+  .methods-list h4 {
+    font-weight: 400;
+  }
+
+  .no_corruption-info {
+    width: 496px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .no-corruption-links {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .no-corruption-links h4 {
+    font-weight: 400;
+  }
+
+  .no-corruption-links a {
+    text-decoration: underline;
+    color: #B58763;
+  }
+
+  .years-links {
+    background-color: #F5F8FD;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .year-links h2 {
+    color: #3A4C56;
+  }
+
+  .year-links a {
+    text-decoration: underline;
+    color: #B58763;
+  }
+
+  .year-links {
+    width: 496px;
+  }
+
+  .year-links p {
+    padding-top: 20px;
+  }
+
+  .year-links span {
+    color: black;
+  }
+
+  .years-links-block {
+    display: flex;
+    gap: 32px;
+  }
+
+  .anti-corruption-files {
+    padding-top: 44px;
+
+  }
+
+  .files-content-blocks1 {
+    height:830px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    column-gap: 32px;
+}
+
+.files {
+    display: flex;
+    align-items: center;
+}

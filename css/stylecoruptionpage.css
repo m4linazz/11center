@@ -1,0 +1,158 @@
+.place-info {
+    background-color:white;
+    width: 496px;
+    height: 142px;
+    border: 1px solid #D6C3BC;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+}
+
+.place-info1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.place-name h4 {
+    color: #0E1F2C;
+    font-weight: 600;
+}
+
+.icon-info {
+    display: flex;
+    gap:12px;
+}
+
+.icon-info h4 {
+    display: flex;
+    color: #0E1F2C;
+    font-weight: 400;
+}
+
+
+.coruption{
+    padding-bottom: 20px;
+}
+    
+.coruption-info{
+        padding-top: 40px;
+        padding-bottom: 40px;
+}
+        
+.coruption-blocks{
+    display: flex;
+    flex-direction: row;
+    padding-top: 33px;
+    gap: 33px;
+}
+
+.coruption-blocks-2{
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    gap: 33px;
+}
+
+.place-info-2 {
+    background-color:white;
+    width: 496px;
+    height: 196px;
+    border: 1px solid #D6C3BC;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.coruption-blocks-3{
+    display: flex;
+    flex-direction: row;
+    padding-top: 33px;
+    gap: 33px;
+}
+
+.place-info-3{
+    background-color:white;
+    width: 496px;
+    height: 63px;
+    border: 1px solid #D6C3BC;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.place-info-3 a {
+    text-decoration:underline;
+    color:  #B58763;
+}
+
+
+.place-info-31{
+    background-color:white;
+    width: 496px;
+    height: 63px;
+    border: 1px solid #D6C3BC;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    margin-top: -50px;
+}
+
+.place-info-31 a {
+    text-decoration:underline;
+    color:  #B58763;
+}
+
+
+.acts{
+    padding-bottom: 20px;
+    }
+    
+    .acts-info{
+    padding-bottom: 110px;
+
+    }
+    
+    .acts-info h2{
+        padding-top: 40px;
+        text-align: center;
+    }
+    
+    .acts-info1{
+        padding-top: 22px;
+    }
+    
+    
+    .acts-blocks{
+        display: flex;
+        flex-direction: column;
+        width: 672px;
+        height: 252px;
+        padding-top: 111px;
+        gap: 19px;
+    }
+
+    .acts-blocks .icon-info{
+        display: flex;
+        align-items:baseline;
+        width: 671px;
+        height: 71px;
+    }
+    
+    .icon-info a {
+        text-decoration:underline;
+        color:  #B58763;
+    }
+    
+    .acts-blocks img {
+        width: 20px;
+        height: 10px;
+    }

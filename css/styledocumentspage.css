@@ -31,12 +31,14 @@
     padding-top: 20px;
     display: flex;
     flex-direction: column;
+
     gap: 20px;
 
   }
   .federal-laws-block {
     display: flex;
     align-items: center;
+    width: 456px;
     gap: 6px;
   }
   .title-text {
@@ -52,12 +54,12 @@
     flex-wrap: wrap;
     padding: 25px 0px 20px 0px;
     gap: 20px;
-    height: 340px;
+    height: 360px;
   }
   .legal-acts-block {
     display: flex;
     gap: 11px;
-    width: 510px;
+    width: 456px;
   }
   .legal-acts-block div img{ 
     padding-top: 5px;
@@ -83,6 +85,7 @@
 }
 .local-laws-blocks {
     display: flex;
+
     flex-wrap: wrap;
     padding: 60px 0px 32px 0px;
     gap: 20px;
@@ -127,18 +130,22 @@
 .licenses-text {
     display: flex;
     flex-direction: column;
+    width: 496px;
     gap: 15px;
 }
-
+.licenses-text div h2 {
+  padding-bottom: 10px;
+}
 .licenses-files-block {
     display: flex;
     gap: 24px;
     padding-bottom: 15px;
-    padding-top: 5px;
+    width: 456px;
+    padding-top: 11px;
 }
 .pixel-gap {
     height: 1px;
-    width: 495px;
+    width: 456px;
     background-color:#A89B9D;
 }
 .licenses-files-text {
@@ -151,7 +158,7 @@ color:#B58763 ;
     display: flex;
     flex-direction: column;
     gap: 14px;
-    width: 50%;
+    width: 495px;
 }
 .state-activities-block {
     display: flex;
@@ -175,4 +182,72 @@ color:#B58763 ;
 }
 .PFHD {
     padding-top: 70px;
+}
+.reports {
+    background-color: #F5F8FD;
+}
+.report-content {
+    padding-top: 32px;
+}
+.report-blocks {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    column-gap: 32px;
+    height: 196px;
+}
+.result-report-blocks {
+  display: flex;
+  gap: 34px;
+}
+.result-report-links {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+
+  width: 456px;
+
+}
+.result-report-text {
+  padding: 25px 0px;
+  width: 496px;
+}
+.result-report-links .state-activities-block:nth-child(5) {
+  padding-left: 30px;
+}
+.result-report-content {
+  padding: 35px 0px 25px 0px;
+}
+.result-report-pdf {
+  display: flex;
+  flex-direction: column;
+  justify-content: center ;
+
+}
+.concept-dev {
+  background-color: #F5F8FD;
+}
+.concept-dev-blocks {
+  display: flex;
+  gap: 32px;
+  padding-top: 35px;
+}
+.concept-dev-content {
+  padding: 32px 0px 64px 0px;
+}
+.concept-dev-links {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  width: 456px;
+}
+.concept-dev-pdf {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+div button a {
+  color: #0E1F2C;
 }

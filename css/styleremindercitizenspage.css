@@ -1,0 +1,184 @@
+.bribe-content {
+    background-color: #10202D;
+    border-radius: 15px;
+    padding: 32px;
+    width: 732px;
+    
+
+}
+.bribe-block {
+    display: flex;
+    justify-content: center;
+    padding: 32px 0px;
+}
+.bribe-blocks {
+    display: flex;
+    gap: 32px;
+}
+.bribe-weight {
+    font-weight: 600;
+}
+.what-is-bribe-content {
+    padding-bottom: 22px;
+}
+.what-is-bribe-content div h4 {
+    padding-top: 10px;
+}
+.what-is-bribe-blocks {
+    display: flex;
+    padding-top: 32px;
+    gap: 32px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 22px;
+}
+.what-is-bribe-block {
+
+    border: 1px solid #A89B9D;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    width: 44.3374%;
+
+}
+.bribe-can {
+    background-color: #F5F8FD;
+}
+.bribe-can-content {
+    padding-top: 10px;
+}
+.bribe-height {
+    height: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.bribe-can-block {
+    border: 1px solid #A89B9D;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 672px;
+}
+.text-height {
+    height: 100px;
+    display: flex;
+    align-items: center;
+
+}
+.subjects-bribe-blocks {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 0px 32px 0px;
+}
+.responsibility-bribe {
+    background-color: #F5F8FD;
+}
+.responsibility-bribe-content {
+    padding: 10px 0px 28px;
+}
+.article-pos {
+    padding: 20px 0px 25px 0px;
+}
+.article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #A89B9D;
+    width: 586px;
+    border-radius: 15px;
+    height: 35px;
+
+}
+.article h4 {
+    text-align: center;
+}
+.responsibility-bribe-text {
+
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.release-liability {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #D6C3BC;
+    border-radius: 15px;
+    padding: 10px 20px ;
+    width: 495px;
+    height: 60px;
+}
+.bribe-mediator-content {
+    padding: 10px 0px 55px 0px;
+}
+.bribe-mediator-text {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.bribe-mediator-blocks {
+    padding-top: 32px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-bottom: 16px;
+    height: 441px;
+    row-gap: 18px;
+    column-gap: 32px;
+}
+.bribe-mediator-block {
+    text-align: center;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid #A89B9D;
+    border-radius:15px;
+    padding: 10px 20px;
+    width: 456px;
+    height: 113px;
+}
+.action-bribe {
+    background-color: #F5F8FD;
+}
+.action-bribe-content {
+    padding: 10px 0px 22px 0px;
+}
+.do-extortion-content {
+    padding: 10px 0px 72px 0px;
+}
+.do-extortion-blocks-content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.do-extortion-blocks {
+    display: flex;
+    row-gap: 20px;
+    column-gap: 28px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.do-extortion-block {
+    background-color: #F5F8FD;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 27.6%;
+}
+.do-extortion-text {
+    padding-top: 27px;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
